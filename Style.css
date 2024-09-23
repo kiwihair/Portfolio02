@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Minne Petat font";
+    src:url("Font/minne-petat-font/MinnePetat-OV40d.ttf");
+}
+* {
+    font-family: "Minne Petat font" !important;
+}
+body {
+    margin: 0;
+    background: #1E201E;
+    text-align: center;
+}
+.jumbotron-headline {
+    height:800px;
+    padding:10em 0 0 0;
+}
+.display-1 {
+    font-family: "Minne Petat font";
+    color: #ECDFCC;
+}
+.lead {
+    color: #697565;
+    box-shadow: 0px 0px 40px 11px #ECDFCC;
+}
+.lead-2 {
+    color: #ECDFCC;
+    text-align: left;
+    padding-left: 50%;
+    padding-top: 90px;
+    padding-right: 15%;
+}
+.container {
+    margin-bottom: 200px;
+}
+.projectImg {
+    object-fit: contain; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    max-height: 300px;
+}
+.cardstyle {
+    max-width: 90%;
+    border: 15px;
+    transition: box-shadow 2s;
+    -webkit-box-shadow: 0px 0px 21px 11px #ECDFCC;
+    box-shadow: 0px 0px 21px 11px #697565;
+}
+.cardstyle:hover {
+    -webkit-box-shadow: 0px 0px 21px 11px #ECDFCC;
+    box-shadow: 0px 0px 21px 11px #697565;
+}
+.cardstyle2 {
+    max-width: 70%;
+    border: 15px;
+    margin-left: 20%;
+    margin-bottom: 0%;
+    box-shadow: none;
+    transition: box-shadow 2s;
+}
+.card-title {
+    --bs-bg-opacity: 1;
+    background-color: rgb(105 117 101 / 50%); !important;
+    color: #ECDFCC;
+}
+.card-text {
+    text-align: start;
+    color: #ECDFCC;
+}
+.carousel{
+    max-width: 80%;
+    -webkit-box-shadow: 0px 0px 21px 11px #ECDFCC;
+    box-shadow: 0px 0px 21px 11px #697565;
+}
+.secondCarousel{
+    max-width: 80%;
+    -webkit-box-shadow: 0px 0px 21px 11px #ECDFCC;
+    box-shadow: 0px 0px 21px 11px #697565;
+}
+.embed-responsiveVinoVirtu{
+    max-width: 70%;
+    margin-left: 20%;
+}
+.embed-responsiveVinoVirtu:hover {
+    -webkit-box-shadow: 0px 0px 21px 11px #ECDFCC;
+    box-shadow: 0px 0px 21px 11px #697565;
+}
+.embed-responsiveRelearn:hover{
+    -webkit-box-shadow: 0px 0px 21px 11px #ECDFCC;
+    box-shadow: 0px 0px 21px 11px #697565;
+}
+.embed-responsiveTapeFeel:hover{
+    -webkit-box-shadow: 0px 0px 21px 11px #ECDFCC;
+    box-shadow: 0px 0px 21px 11px #697565;
+}
+
